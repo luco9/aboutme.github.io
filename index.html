@@ -1,130 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>STRONGEST</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<style>
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: black;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(-45deg, #1a2a6c, #b21f1f, #fdbb2d);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: #fff;
+            text-align: center;
+        }
 
-.container {
-  max-width: 90%;
-  margin: 50px auto;
-  text-align: center;
-}
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
 
-h1 {
-  font-size: 36px;
-  color: #333;
-  font-family: 'Verdana', sans-serif;
-}
+        header {
+            margin-bottom: 20px;
+        }
 
-p {
-  font-size: 18px;
-  color: white;
-  font-family: 'Georgia', serif;
-  font-weight: bold;
-}
+        h1 {
+            color: #f39c12;
+            font-size: 42px;
+            text-shadow: 2px 2px 5px #000;
+        }
 
-.buttons {
-  margin-top: 30px;
-}
+        section {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+            margin-bottom: 30px;
+        }
 
-a {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 10px;
-  text-decoration: none;
-  color: #fff;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
+        .info {
+            margin-bottom: 15px;
+            font-size: 20px;
+            line-height: 1.5;
+        }
 
-a.telegram {
-  background-color: #0088cc;
-}
+        .info label {
+            font-weight: bold;
+            color: #1abc9c;
+        }
 
-a.instagram {
-  background-color: #e4405f;
-}
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 18px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-a:hover {
-  background-color: #555;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-}
+        .button-instagram {
+            background-color: #e4405f;
+        }
 
-.footer {
-  margin-top: 50px;
-  font-size: 12px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  padding: 10px 0;
-  text-align: center;
-}
+        .button img {
+            margin-right: 10px;
+        }
 
-.footer p {
-  color: #aaa;
-}
-
-.footer i {
-  font-size: 20px;
-  margin-right: 5px;
-}
-
-.subtitles {
-  margin-top: 50px;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.subtitles h2 {
-  font-size: 24px;
-}
-
-.subtitles p {
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-.html-title {
-  color: orange; /*لون كلمة Html */
-}
-
-.python-title {
-  color: #007bff; /*بايثون هم*/
-}
-</style>
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #111;
+            border-radius: 10px;
+            font-size: 14px;
+            color: #aaa;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-  <h1>who me?</h1>
-  <p>Hello there! 👋 Would you like to know more about me? <span style="font-family: 'Courier New', monospace;">I'm Mohammed</span>, a good person in developing Telegram bots and some basics of Python language🐍. You are now on the website that I developed using HTML. <span style="font-family: 'Times New Roman', serif;">I'm not expecting my age to be of much use to you</span>, I also enjoy listening to music and songs🎵, especially Mr. Kitty. Wishing you all the best! 🍀</p>
-  <div class="buttons">
-    <a href="https://t.me/luc_md9" class="telegram" target="_blank">Telegram <i class="fab fa-telegram"></i></a>
-    <a href="https://www.instagram.com/luc_md9/" class="instagram" target="_blank">Instagram <i class="fab fa-instagram"></i></a>
-  </div>
-</div>
-<div class="subtitles">
-  <h2 class="html-title">What is HTML?</h2> <!-- عنوان HTML باللون البرتقالي -->
-  <i class="fab fa-html5"></i> <!-- علامه الhtml من awesome معرفه من فوك -->
-  <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications. With HTML, you can structure content on the web using various elements like headings, paragraphs, lists, links, and more.</p>
-</div>
-<div class="subtitles">
-  <h2 class="python-title">What is Python?</h2> <!-- عنوان Python باللون الأزرق -->
-  <i class="fab fa-python"></i> <!-- علامه بايثون ايضا نفس الhtml -->
-  <p>Python is a high-level, interpreted programming language known for its simplicity and readability. It's widely used in web development, scientific computing, data analysis, artificial intelligence, and more. Python emphasizes code readability and its syntax allows programmers to express concepts in fewer lines of code compared to other languages.</p>
-</div>
-<div class="footer">
-</div>
+    <header>
+        <h1>✨ Welcome to My World ✨</h1>
+    </header>
+    <section>
+        <div class="info">
+            <label for="age">Age:</label>
+            <p>??</p>
+        </div>
+        <div class="info">
+            <label for="grade">Grade:</label>
+            <p>🎓 Preparatory</p>
+        </div>
+        <div class="info">
+            <label for="music">Favorite Music:</label>
+            <p>🎶 Darkwave, Synthwave, and Post-punk</p>
+        </div>
+        <div class="info">
+            <label for="interests">Interests:</label>
+            <p>🌟 Currently studying Android virus behavior and sleep, and playing video games 🎮</p>
+        </div>
+    </section>
+
+    <div>
+        <a href="https://www.instagram.com/luc_md9" target="_blank">
+            <button class="button button-instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="20" height="20"> Instagram
+            </button>
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2024 [Your Name]. All Rights Reserved.
+    </footer>
+</body>
+</html>
 <!-- 
   A    N   N  GGGG  EEEEE  L     
  A A   NN  N G      E      L     
@@ -132,8 +132,3 @@ AAAAA  N N N G  GG  EEEE   L
 A   A  N  NN G   G  E      L     
 A   A  N   N  GGG   EEEEE  LLLLL 
 -->
-
-</body>
-</html>
-
-
